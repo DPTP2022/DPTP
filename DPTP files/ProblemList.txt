@@ -1,0 +1,12 @@
+Problem Encoding    MObjectives NDecVars    DVsplitI LowerBoundI UpperBoundI DVsplitII  LowerBoundII UpperBoundII DVsplitIII LowerBoundIII UpperBoundIII Min_TRange Max_TRange
+dMOP1   real        2           20          1        0           1           19         0            1            X          X             X             0          15
+dMOP2   real        2           20          1        0           1           19         0            1            X          X             X             0          15
+dMOP3   real        2           20          1        0           1           19         0            1            X          X             X             0          15
+FDA1    real        2           20          1        0           1           19         -1           1            X          X             X             0          15
+FDA2    real        2           20          1        0           1           1          -1           1            18         -1            1             0          15
+FDA3    real        2           20          1        0           1           19         -1           1            X          X             X             0          15
+DIMP1   real        2           20          1        0           1           19         -1           1            X          X             X             0          15
+DIMP2   real        2           20          1        0           1           19         -2           2            X          X             X             0          15
+ZJZ     real        2           20          X        X           X           X          X            X            X          X             X             X          X
+HE1     real        2           20          X        X           X           X          X            X            X          X             X             X          X
+HE2     real        2           20          X        X           X           X          X            X            X          X             X             X          X

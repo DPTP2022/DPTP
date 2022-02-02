@@ -1,0 +1,5 @@
+Algorithm DefaultPopsize DefaultEvaluations AdditionalParameters
+NSGAII 100 100000 0
+NSGAIII 100 100000 0
+MOEAD 100 100000 2
+SPEA2 100 100000 0
