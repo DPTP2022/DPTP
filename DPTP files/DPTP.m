@@ -1101,8 +1101,8 @@ set(gca,'XTick',[bxs(1)/2:bxs(1):((length(pr1)*bxs(1))+(bxs(1)/2))],'XTickLabel'
 cbar=colorbar(gca,'Limits',[1-max(max(hmd)) 1]); colormap('gray'); temp=num2str(1-cbar.Ticks'); temp2={}; for i=1:size(temp,1); temp2=[temp2; strtrim(temp(i,:))]; end
 cbar.TickLabels=temp2;
 titlestrings=[A1.name ' on ' P1.name];
-xlabel('Frequency \tau_t (generations)')
-ylabel('Severity 1/n_t')
+xlabel(pr1_label)
+ylabel(pr2_label)
 
 if handles.SaveOutputsCheckbox.Value==1
     ObjectiveFigure=handles.axes1; HeatmapFigure=handles.axes6;
