@@ -146,7 +146,7 @@ classdef ALGORITHM
                 RandPop = ProblemObj.initPop(thisAlgorithm.Npop*(thisAlgorithm.Dynamic_Response(2)/100));
                 Response_Solutions=RandPop.decs;
             elseif thisAlgorithm.Dynamic_Response(1)==2
-                sample_inds=randsample(thisAlgorithm.Npop,thisAlgorithm.Npop*(thisAlgorithm.Dynamic_Response(2)/100));
+                sample_inds=randsample(thisAlgorithm.Npop,ceil(thisAlgorithm.Npop*(thisAlgorithm.Dynamic_Response(2)/100)));
                 Response_Solutions = thisAlgorithm.Dynamic_Response_Mutation(ProblemObj,[PopulationStruct.decs(sample_inds,:)]);
 %             elseif thisAlgorithm.Dynamic_Response(1)==3 %Full restart
 %                 RandPop = ProblemObj.initPop(thisAlgorithm.Npop);
